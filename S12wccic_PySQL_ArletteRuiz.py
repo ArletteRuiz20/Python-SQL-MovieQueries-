@@ -1,7 +1,4 @@
-### S12_PySQL_StarterFile.py  v4
-#  K.Schmitz (c) 2022,2023, 2024
-#  Starter File for CIS2010 Session 12, Structured Query Language
-##################Initialization information, do not modify ################
+
 from cis2010utils4 import StartHere, EndHere, runsql
 ##from colorama import Fore
 import pandas as pd
@@ -140,8 +137,7 @@ w7c = runsql( sqlw7c, db_conn, False)
 
 # Workshop END
 #
-###########################################################
-# Collaboration Challenge
+
 pd.set_option('display.max_rows', 32)
 #
 # S12ccq Q5
@@ -229,8 +225,7 @@ WHERE movies.title LIKE '%Shrek%' AND movies.year = 2010
 cc13 = runsql( sqlcc13, db_conn, False)
 
 
-#Collaboration Challenge End
-###########################################################
+
 # Individual Challenge
 #
 # S12icq Q2
